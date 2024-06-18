@@ -15,12 +15,12 @@ int main(){
     scanf("%lf", &num2);
 
     switch (operator){
-        case '+':
-        result = num1 + num2;
-        printf("Result: %lf", result);
-        break;
         case '-':
         result = num1 - num2;
+        printf("Result: %lf", result);
+        break;
+        case '+':
+        result = num1 + num2;
         printf("Result: %lf", result);
         break;
         case '*':
